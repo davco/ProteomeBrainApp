@@ -1,0 +1,20 @@
+Ontology term	App term	EveTemplate
+normal	Control	
+Alzheimer's disease	Alzheimer disease	
+Alzheimer's disease	Alzheimer	
+early braak stage	Early braak stage	
+late braak stage	Late braak stage	
+frontal cortex		frontal_gyrus
+entorhinal cortex		entorhinal
+parahippocampal gyrus		parahippocampal_gyrus
+temporal cortex		temporal_gyrus
+amygdala		amygdala
+caudate nucleus		caudate_nucleus
+cerebellum		cerebellum
+middle frontal gyrus		middle_frontal_gyrus
+parietal lobe		parietal_lobule
+superior temporal gyrus		superior_temporal_gyrus
+Thalamus		thalamus
+dorsolateral prefrontal cortex		middle_frontal_gyrus
+hippocampus		hippocampus_
+Mediodorsal Thalamic Nucleus		thalamus
