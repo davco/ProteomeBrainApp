@@ -30,7 +30,7 @@ eve_t1 <- readEve()
 
 # Define UI
 ui <- fluidPage(theme = shinytheme("lumen"),
-                titlePanel("Protein datasests in brain tissues"),
+                titlePanel("Proteomics in the brain"),
                 sidebarLayout(
                   sidebarPanel(
                     
