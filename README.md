@@ -10,7 +10,8 @@ ProteomeBrainApp is an interactive app built in R, showing protein expression ac
 * The protein expression values is shown in color over a MRI scan using the R package EveTemplate.
 * Protein expression by selecting the gene ID and the biological condition.
 
-![Capture](https://user-images.githubusercontent.com/15140798/160301489-cae11e24-ae5c-4e1d-ba6e-a73013bdaa0a.PNG)
+![Capture](https://user-images.githubusercontent.com/15140798/161384015-4606784c-88bd-4957-9e40-657da498b483.PNG)
+
 
 ## Installation
 
