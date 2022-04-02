@@ -30,7 +30,7 @@ eve_t1 <- readEve()
 
 # Define UI
 ui <- fluidPage(theme = shinytheme("lumen"),
-                titlePanel("Proteomics in the brain"),
+                titlePanel("Protein expression in the brain"),
                 sidebarLayout(
                   sidebarPanel(
                     
@@ -58,9 +58,11 @@ ui <- fluidPage(theme = shinytheme("lumen"),
                   # Output: Description, lineplot, and reference
                   mainPanel(
                     textOutput(outputId = "desc"),
+                    textOutput(outputId = "desc2"),
                     textOutput(outputId = "desc3"),
-                    tableOutput(outputId = "table"),
                     plotOutput(outputId = "plotBrainRegions", height = "300px"),
+                    tableOutput(outputId = "table"),
+                    
                     plotOutput(outputId = "plotBrainExpression", height = "300px")
                     
                     
@@ -224,6 +226,8 @@ server <- function(input, output) {
     values_from_table
   })
   
+  
+  
   preplots <- reactive({
     map_roi <- c(map)
     organism_parts <- names(generateTable())
@@ -260,6 +264,12 @@ server <- function(input, output) {
   output$desc <- renderText({
     
     paste("Experiment: ", input$experiment)
+    
+  })
+  
+  output$desc2 <- renderText({
+    
+    paste("Publication: ", links$Publication[which(links$Authorship==input$experiment)])
     
   })
   
