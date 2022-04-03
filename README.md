@@ -5,10 +5,10 @@ ProteomeBrainApp is an interactive app built in R, showing protein expression ac
 
 ## Features
 
-* Currently there are 3 proteomics reanalyzed experiments embedded within the app.
-* Shows protein expression values across baseline human brain tissues and from different Braak stages of Alzheimer disease.
-* The protein expression values is shown in color over a MRI scan using the R package EveTemplate.
-* Protein expression by selecting the gene ID and the biological condition.
+* Currently there are 3 reanalyzed proteomics experiments embedded within the app.
+* It shows the protein expression values across baseline human brain tissues and from different Braak stages of Alzheimer disease.
+* The protein expression values are shown in color over a MRI scan using the R package EveTemplate.
+* Filters the protein expression by selecting the gene ID and the biological condition.
 
 ![Capture](https://user-images.githubusercontent.com/15140798/161384015-4606784c-88bd-4957-9e40-657da498b483.PNG)
 
