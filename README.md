@@ -18,10 +18,11 @@ ProteomeBrainApp is an interactive app built in R, showing protein expression ac
 To install the required packages to run the app
 
 ```r
-install.packages(c("shiny", "shinythemes", "dplyr", "readr", "stringi", "data.table"))
+install.packages(c("shiny", "shinythemes", "dplyr", "readr", "stringi", "data.table", "neurohcp", "fslr", "plyr"))
 
 source("https://neuroconductor.org/neurocLite.R")
 neuro_install('EveTemplate')
+
 
 ```
 
